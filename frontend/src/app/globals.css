@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #F0FBFC;
+  --bg-surface: #FFFFFF;
+  --border: #CBEFF3;
+  --text-primary: #1E293B;
+  --text-secondary: #312843;
+  --accent: #542aa9;
+  --accent-light: #A4E2EA;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Score badge colors */
+.score-great    { @apply bg-emerald-100 text-emerald-700 border border-emerald-200; }
+.score-consider { @apply bg-cyan-100 text-cyan-700 border border-cyan-200; }
+.score-wait     { @apply bg-amber-100 text-amber-700 border border-amber-200; }
+.score-avoid    { @apply bg-red-100 text-red-700 border border-red-200; }
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F0FBFC; }
+::-webkit-scrollbar-thumb { background: #A4E2EA; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #165893; }
+
+/* Card base */
+.bw-card {
+  @apply bg-white rounded-2xl border border-cyan-100 shadow-card;
+}
+
+/* Smooth transitions */
+.bw-btn {
+  @apply transition-all duration-200 ease-out;
+}
