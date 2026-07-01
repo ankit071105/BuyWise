@@ -25,7 +25,7 @@ buywise/
 
 ---
 
-## 🚀 Setup — Backend
+## Setup — Backend
 
 ```bash
 cd backend
@@ -41,7 +41,7 @@ Swagger docs: http://localhost:8000/docs
 
 ---
 
-## 🚀 Setup — Frontend
+##  Setup — Frontend
 
 ```bash
 cd frontend
@@ -53,7 +53,7 @@ Frontend runs at: http://localhost:3000
 
 ---
 
-## 🚀 Setup — Chrome Extension
+##  Setup — Chrome Extension
 
 ```bash
 cd extension
@@ -67,7 +67,7 @@ python generate_icons.py
 
 ---
 
-## 🔑 Where to change things (marked with ⚠️ CHANGE THIS in code)
+##  Where to change things (marked with  CHANGE THIS in code)
 
 | File | What to change |
 |------|---------------|
@@ -79,7 +79,7 @@ python generate_icons.py
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 | Layer | Tech |
 |-------|------|
@@ -94,7 +94,7 @@ python generate_icons.py
 
 ---
 
-## 🏆 Unique Features (SIH differentiators)
+## 🏆 Unique Features 
 
 1. **Buy Score™ (0–10)** — AI composite score with explainable breakdown
 2. **Fake Review Detection** — Burst-pattern + rating-text mismatch analysis
@@ -104,13 +104,7 @@ python generate_icons.py
 6. **Cross-platform** — Website + Chrome extension sharing one backend
 7. **Full chat history** — Conversational AI shopping assistant with memory
 
----
 
-## 📌 SIH Pitch Angle
-
-> "BuyWise reduces wasted purchases and reverse logistics burden in Indian e-commerce by providing AI-powered explainable buying guidance — combining price intelligence, review authenticity scoring, and festival timing prediction into a single Buy Score."
-
----
 
 ## 🛠️ Known Limitations (be honest in demos)
 
